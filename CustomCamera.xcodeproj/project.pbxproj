@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		ACE34BE5DBFF362C29955AEF /* libPods-CustomCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBE9B2BCC83EBA100FBBA2F /* libPods-CustomCamera.a */; };
 		E3F325A61E9E37EC00986A8C /* CustomCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F325A41E9E37EC00986A8C /* CustomCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3F3264A1E9E3A1000986A8C /* Camera-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F325AD1E9E3A1000986A8C /* Camera-Bridging-Header.h */; };
 		E3F3264B1E9E3A1000986A8C /* ALAssetsLibrary+CustomPhotoAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F325B01E9E3A1000986A8C /* ALAssetsLibrary+CustomPhotoAlbum.h */; };
 		E3F3264C1E9E3A1000986A8C /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F325B11E9E3A1000986A8C /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
 		E3F3264D1E9E3A1000986A8C /* AssetGroupCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F325B31E9E3A1000986A8C /* AssetGroupCell.h */; };
@@ -146,7 +145,6 @@
 		E3F325A11E9E37EC00986A8C /* CustomCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F325A41E9E37EC00986A8C /* CustomCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCamera.h; sourceTree = "<group>"; };
 		E3F325A51E9E37EC00986A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3F325AD1E9E3A1000986A8C /* Camera-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Camera-Bridging-Header.h"; sourceTree = "<group>"; };
 		E3F325B01E9E3A1000986A8C /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
 		E3F325B11E9E3A1000986A8C /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
 		E3F325B31E9E3A1000986A8C /* AssetGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetGroupCell.h; sourceTree = "<group>"; };
@@ -336,7 +334,6 @@
 		E3F325AC1E9E3A1000986A8C /* CustomCameraAndEditors */ = {
 			isa = PBXGroup;
 			children = (
-				E3F325AD1E9E3A1000986A8C /* Camera-Bridging-Header.h */,
 				E3F325AE1E9E3A1000986A8C /* CameraViewController */,
 				E3F325D01E9E3A1000986A8C /* CLImageEditor */,
 				E3F326461E9E3A1000986A8C /* HIPImageCropperView */,
@@ -724,7 +721,6 @@
 				E3F3266F1E9E3A1000986A8C /* CLBlurTool.h in Headers */,
 				E3F3268F1E9E3A1000986A8C /* DisabledView.h in Headers */,
 				E3F326951E9E3A1000986A8C /* CLResizeTool.h in Headers */,
-				E3F3264A1E9E3A1000986A8C /* Camera-Bridging-Header.h in Headers */,
 				E3F3265B1E9E3A1000986A8C /* UICollectionView+Convenience.h in Headers */,
 				E3F326B51E9E3A1000986A8C /* CLToolbarMenuGroupIcon.h in Headers */,
 				E3F326BF1E9E3A1000986A8C /* UIDevice+SystemVersion.h in Headers */,

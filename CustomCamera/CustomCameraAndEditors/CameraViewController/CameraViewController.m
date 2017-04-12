@@ -24,7 +24,7 @@
 #import "ALAssetsLibrary+CustomPhotoAlbum.h"
 #import "CurrentLocation.h"
 
-#import <SCRecorder.h>
+#import "SCRecorder.h"
 #import "SCTouchDetector.h"
 
 #define kVideoPreset AVCaptureSessionPresetHigh
