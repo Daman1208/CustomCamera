@@ -7,7 +7,7 @@
 //
 
 #import "SimpleCollectionCell.h"
-#import <UIImageView+WebCache.h>
+#import "UIImageView+WebCache.h"
 
 
 #define kColorBlueTint [UIColor colorWithRed:0.0/255.0 green:122.0/255.0 blue:225.0/255.0 alpha:1]
