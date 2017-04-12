@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="AssetGroupCell" id="KGk-i7-Jjw" customClass="AssetGroupCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hs5-uC-q5R">
+                        <rect key="frame" x="52" y="11" width="233" height="20"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cameraroll_default" translatesAutoresizingMaskIntoConstraints="NO" id="kj5-Cp-Eb2">
+                        <rect key="frame" x="0.0" y="0.0" width="44" height="43"/>
+                        <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="44" id="Xs9-gK-dcG"/>
+                            <constraint firstAttribute="height" constant="43" id="m65-sg-ZbX"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZx-de-5at">
+                        <rect key="frame" x="293" y="11" width="11" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="hs5-uC-q5R" firstAttribute="leading" secondItem="kj5-Cp-Eb2" secondAttribute="trailing" constant="8" id="74b-uN-np2"/>
+                    <constraint firstItem="tZx-de-5at" firstAttribute="leading" secondItem="hs5-uC-q5R" secondAttribute="trailing" constant="8" id="GVm-vf-zK0"/>
+                    <constraint firstItem="hs5-uC-q5R" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="MPV-cG-Rxk"/>
+                    <constraint firstItem="kj5-Cp-Eb2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="QH7-eK-Odg"/>
+                    <constraint firstItem="tZx-de-5at" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="gFR-sS-dTt"/>
+                    <constraint firstAttribute="bottom" secondItem="kj5-Cp-Eb2" secondAttribute="bottom" id="qD9-mK-xpn"/>
+                    <constraint firstAttribute="trailing" secondItem="tZx-de-5at" secondAttribute="trailing" constant="16" id="y7t-Yn-S0L"/>
+                    <constraint firstItem="kj5-Cp-Eb2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ykA-kv-Dci"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="imgThumb" destination="kj5-Cp-Eb2" id="yPv-N4-8dN"/>
+                <outlet property="lblCount" destination="tZx-de-5at" id="NZF-pa-5HS"/>
+                <outlet property="lblGroupName" destination="hs5-uC-q5R" id="Oug-7T-XHA"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cameraroll_default" width="40" height="40"/>
+    </resources>
+</document>

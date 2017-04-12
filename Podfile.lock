@@ -1,0 +1,17 @@
+PODS:
+  - SCRecorder (2.7.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - SCRecorder
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  SCRecorder: bbb521dbc222908876ec9cd9156bbc8a893bed44
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: 63e223451c16c06fee187e8d2d819d6ef3508db8
+
+COCOAPODS: 1.2.0.beta.1
