@@ -134,7 +134,7 @@ static NSString* const kCLTextToolAlignRightIconName = @"alignRightIconAssetsNam
     [self.editor.view addSubview:_settingView];
     
     UIButton *okButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [okButton setImage:[self imageForKey:kCLTextToolCloseIconName defaultImageName:@"btn_delete.png"] forState:UIControlStateNormal];
+    [okButton setImage:[self imageForKey:kCLTextToolCloseIconName defaultImageName:@"btn_delete_text.png"] forState:UIControlStateNormal];
     okButton.frame = CGRectMake(_settingView.width-32, 0, 32, 32);
     [okButton addTarget:self action:@selector(pushedButton:) forControlEvents:UIControlEventTouchUpInside];
     [_settingView addSubview:okButton];
@@ -497,7 +497,7 @@ const CGFloat MAX_FONT_SIZE = 50.0;
         self.frame = CGRectMake(0, 0, size.width + 32, size.height + 32);
         
         _deleteButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_deleteButton setImage:[tool imageForKey:kCLTextToolDeleteIconName defaultImageName:@"btn_delete.png"] forState:UIControlStateNormal];
+        [_deleteButton setImage:[tool imageForKey:kCLTextToolDeleteIconName defaultImageName:@"btn_delete_text.png"] forState:UIControlStateNormal];
         _deleteButton.frame = CGRectMake(0, 0, 32, 32);
         _deleteButton.center = _label.frame.origin;
         [_deleteButton addTarget:self action:@selector(pushedDeleteBtn:) forControlEvents:UIControlEventTouchUpInside];

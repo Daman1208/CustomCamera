@@ -8,7 +8,7 @@ s.summary = "CustomCamera has instagram like custom camera and library to get im
 s.requires_arc = true
 
 # 2
-s.version = "0.2.1"
+s.version = "0.2.2"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -35,5 +35,5 @@ s.dependency 'SCRecorder'
 s.source_files = "CustomCamera/**/*.{h,m}"
 
 # 9
-s.resources = "CustomCamera/**/*.{png,jpeg,jpg,storyboard,xib,bundle}"
+s.resources = "CustomCamera/**/*.{png,jpeg,jpg,storyboard,xib,strings}"
 end

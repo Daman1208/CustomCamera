@@ -232,7 +232,7 @@ static NSString* const kCLEmoticonToolDeleteIconName = @"deleteIconAssetsName";
         
         _deleteButton = [UIButton buttonWithType:UIButtonTypeCustom];
 		
-        [_deleteButton setImage:[tool imageForKey:kCLEmoticonToolDeleteIconName defaultImageName:@"btn_delete.png"] forState:UIControlStateNormal];
+        [_deleteButton setImage:[tool imageForKey:kCLEmoticonToolDeleteIconName defaultImageName:@"btn_delete_emoticon.png"] forState:UIControlStateNormal];
         _deleteButton.frame = CGRectMake(0, 0, 32, 32);
         _deleteButton.center = _imageView.frame.origin;
         [_deleteButton addTarget:self action:@selector(pushedDeleteBtn:) forControlEvents:UIControlEventTouchUpInside];
